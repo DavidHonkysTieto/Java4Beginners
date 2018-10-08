@@ -7,12 +7,12 @@ class ArithmeticOperator {
 	
     public static void main(String[] args) {
     	
-    	useDouble ();
+    	useDouble();
     	useString();
 
     }
     
-    public static void useDouble () {
+    public static void useDouble() {
     	
     	double number1 = 12.5, number2 = 3.5, result;
     	
