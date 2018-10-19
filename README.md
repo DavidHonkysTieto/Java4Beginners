@@ -17,4 +17,4 @@ Repository for course **Java4Beginners**
 	- Static and Non-static
 	- Constructor, this operator
 	- Arrays
-	- Iteration
+	- Looping: for, while, iterator
