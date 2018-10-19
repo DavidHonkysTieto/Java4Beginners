@@ -12,3 +12,9 @@ Repository for course **Java4Beginners**
 	- Operators
 	- Basic Conditions
 	
+## LAB 3 
+	- Class and Object
+	- Static and Non-static
+	- Constructor, this operator
+	- Arrays
+	- Iteration
