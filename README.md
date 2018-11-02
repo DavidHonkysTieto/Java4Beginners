@@ -2,10 +2,8 @@
 
 Repository for course **Java4Beginners**
 
-
 ## LAB 1 
 	- Hello World
-
 
 ## LAB 2
 	- Read arguments, Print output
@@ -18,3 +16,11 @@ Repository for course **Java4Beginners**
 	- Constructor, this operator
 	- Arrays
 	- Looping: for, while, iterator
+	
+## LAB 4 
+	- toString()
+	- equals()
+	- hashCode()
+	- ArrayList, HashSet
+	- ForEach
+	- Comparator
