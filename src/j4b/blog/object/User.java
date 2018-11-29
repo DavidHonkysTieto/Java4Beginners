@@ -53,7 +53,7 @@ public class User extends Person implements Password {
 	
 	@Override
 	public String toString() {
-		return "User [" + userName + ", " + creationDate.getYear() + "-"+ creationDate.getMonthValue() + "-"+ creationDate.getDayOfMonth() +"]";
+		return "[" + userName + ", " + creationDate.getYear() + "-"+ creationDate.getMonthValue() + "-"+ creationDate.getDayOfMonth() +"]";
 	}
 
 	@Override
