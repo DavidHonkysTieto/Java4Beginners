@@ -1,0 +1,31 @@
+{
+	"authors": [
+		{
+			"ID": "1",
+			"UserName": "bono",
+			"FullName": "Bono Vox"
+		},
+		{
+			"ID": "2",
+			"UserName": "freddie",
+			"FullName": "Freddie Mercury"
+		},
+		{
+			"ID": "3",
+			"UserName": "ronaldo",
+			"FullName": "Cristiano Ronaldo"
+		},
+		{
+			"ID": "4",
+			"UserName": "leonardo",
+			"FullName": "Leonardo Da Vinci"
+		},
+		{
+			"ID": "5",
+			"UserName": "jeff",
+			"FullName": "Jeff Bezos"
+		}
+	]
+}
+
+
