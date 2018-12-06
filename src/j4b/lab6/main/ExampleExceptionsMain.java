@@ -18,7 +18,8 @@ public class ExampleExceptionsMain {
             String a = null; //null value 
             System.out.println(a.charAt(0)); 
         } catch(NullPointerException e) { 
-            System.out.println("NullPointerException..."); 
+            System.out.println("NullPointerException...");
+            e.printStackTrace();
         } 
 	}
 	
@@ -30,7 +31,8 @@ public class ExampleExceptionsMain {
             System.out.println(c); 
         } 
         catch(StringIndexOutOfBoundsException e) { 
-            System.out.println("StringIndexOutOfBoundsException..."); 
+            System.out.println("StringIndexOutOfBoundsException...");
+            e.printStackTrace();
         } 
     }
 	
@@ -47,14 +49,24 @@ public class ExampleExceptionsMain {
 	
 	public static void simulateNumberFormatException() 
     { 
+		
+		int num = -1;
+		
 		try { 
-            // "id" is not a number 
-            int num = Integer.parseInt ("id") ; 
+            // "id" is not a number
+			String cislo = "text";
+            num = Integer.parseInt (cislo) ; 
   
             System.out.println(num); 
         } catch(NumberFormatException e) { 
-            System.out.println("Number format exception..."); 
-        } 
+            System.out.println("Number format exception...");
+            e.printStackTrace();
+            num = 1;
+            
+        }
+		
+		num++;
+		
     }
 
 }
