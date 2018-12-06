@@ -29,14 +29,13 @@ public class JsonUtils {
         json.put("characters", jsonArray);
 
         try {
-            System.out.println("Writting JSON into file ...");
-            System.out.println(json);
-            FileWriter jsonFileWriter = new FileWriter(file);
-            jsonFileWriter.write(json.toJSONString());
-            jsonFileWriter.flush();
-            jsonFileWriter.close();
+            System.out.println("Writting JSON into file ...");            
+            System.out.println(json);            
+            FileWriter jsonFileWriter = new FileWriter(file);            
+            jsonFileWriter.write(json.toJSONString());            
+            jsonFileWriter.flush();            
+            jsonFileWriter.close();            
             System.out.println("Done");
-
         } catch (IOException e) {
             e.printStackTrace();
         }

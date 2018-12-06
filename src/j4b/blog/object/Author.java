@@ -6,7 +6,7 @@ import java.util.List;
 public class Author extends User{
 	
 	private LocalDateTime lastModifiedDate;
-	private List articles;
+	private List<?> articles;
 	
 	public Author(int id, String fullName, String userName) {
 		super(id, fullName, userName);
@@ -19,10 +19,10 @@ public class Author extends User{
 		this.lastModifiedDate = lastModifiedDate;
 	}
 	
-	public List getArticles() {
+	public List<?> getArticles() {
 		return articles;
 	}
-	public void setArticles(List articles) {
+	public void setArticles(List<?> articles) {
 		this.articles = articles;
 	}	
 

@@ -7,7 +7,7 @@ import java.util.List;
 import j4b.blog.comparator.UserNameComparator;
 import j4b.blog.object.Author;
 
-public class AuthorCreationMain {
+public class AuthorCreationSimpleMain {
 
 	public static void main(String[] args) {		
 		

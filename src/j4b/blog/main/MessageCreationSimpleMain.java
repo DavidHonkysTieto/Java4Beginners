@@ -3,7 +3,7 @@ package j4b.blog.main;
 import j4b.blog.object.Author;
 import j4b.blog.object.Message;
 
-public class MessageCreationMain {
+public class MessageCreationSimpleMain {
 
 	public static void main(String[] args) {
 		
