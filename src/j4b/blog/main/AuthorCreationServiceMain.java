@@ -10,7 +10,7 @@ public class AuthorCreationServiceMain {
 		
 		AuthorService authorService = new AuthorServiceImpl();
 		
-		Author newAuthor = authorService.createAuthor(7,"Vaclav Havel", "vaclav");
+		Author newAuthor = authorService.createAuthor(13,"Vaclav Havel", "vaclav");
 		
 		System.out.println(newAuthor + " created");
 

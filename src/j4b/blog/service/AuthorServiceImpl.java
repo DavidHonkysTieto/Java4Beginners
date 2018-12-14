@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -15,11 +16,15 @@ import j4b.blog.object.Author;
 
 public class AuthorServiceImpl implements AuthorService {
 	
+	final static Logger logger = Logger.getLogger(AuthorServiceImpl.class);
+	
 	JSONParser parser = new JSONParser();
 	
 	@SuppressWarnings("unchecked")
 	@Override
-	public Author createAuthor(int ID, String fullName, String userName) {		
+	public Author createAuthor(int ID, String fullName, String userName) {
+		
+		logger.debug("Trying to create Author: " + fullName);
 		
 		try {			
 			
